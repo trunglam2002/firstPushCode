@@ -1,0 +1,138 @@
+@font-face {
+    font-family: My Font;
+    src: url(./fonts/font.ttf)
+}
+
+html * {
+    font-family: "My Font";
+}
+
+.red {
+    border: 1px solid red;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .header {
+        height: 864px;
+        background: url("./img/background-header.jpg") center center no-repeat;
+
+        .about-signin {
+            height: 79px;
+            text-align: right;
+
+            .signin {
+                background-color: transparent;
+                cursor: pointer;
+                border-radius: 20px;
+                padding: 9px 15px;
+                border: 1px solid #4CAF50;
+                color: #4CAF50;
+                margin-top: 39px;
+                margin-right: 120px;
+                font-size: 18px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .about {
+                background-color: transparent;
+                cursor: pointer;
+                border: transparent;
+                color: black;
+                margin-right: 33px;
+                font-size: 18px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .logo {
+            height: 295px;
+            text-align: center;
+
+            img {
+                position: relative;
+                top: 148px;
+            }
+        }
+
+        .icon {
+            height: 110px;
+
+            .left {
+                width: 32%;
+                display: inline-block;
+                text-align: center;
+
+                img,
+                span {
+                    margin-left: 226px;
+                    font-size: 36px;
+                    margin-top: 8px;
+                    display: block;
+                }
+            }
+
+            .center {
+                width: 32%;
+                display: inline-block;
+                text-align: center;
+
+                span {
+                    font-size: 36px;
+                    margin-top: 8px;
+                    display: block;
+                }
+            }
+
+            .right {
+                width: 32%;
+                display: inline-block;
+                text-align: center;
+
+                img,
+                span {
+                    margin-right: 226px;
+                    font-size: 36px;
+                    margin-top: 8px;
+                    display: block;
+                }
+            }
+
+        }
+
+        .message {
+            text-align: center;
+            height: 50px;
+
+            span {
+                font-size: 25px;
+                font-style: italic;
+                margin-top: 48px;
+            }
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 62px;
+
+            .startnow {
+                border: transparent;
+                color: black;
+                background-color: #4CAF50;
+                font-size: 30px;
+                padding: 5px 15px;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
